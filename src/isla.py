@@ -113,6 +113,9 @@ COLUMNAS = 1
 CODIGO_OCULTO_PROGRAMADOR = "s"
 
 def limpiar_terminal():
+    """
+    Limpia la terminal
+    """
     if os.name == "nt":
         os.system("cls")
 
